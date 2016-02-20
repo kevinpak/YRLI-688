@@ -1,0 +1,92 @@
+.b-header{
+	height:156px;
+  box-shadow: 4.95px 4.95px rgba(0, 0, 0, 0.22);
+}
+.b-header_top{
+	height:45px;
+	background-color:$colorRed;
+
+	.b-header_top_liste {
+		height:45px;
+		margin-left:208px;
+	}
+	.b-header_top_liste_left ul li{
+		height:45px;
+		line-height:40px;
+		font-size: 16px;
+  	font-family: "OpenSans";
+  	color: rgb( 255, 255, 255 );
+  	padding-right:45px !important;
+  	img{
+  	margin-right:10px;
+  	}
+	}
+
+
+	.b-header_top_liste_left_search input{
+		width: 251px;
+  	height: 45px;
+  	background-color: rgb( 255, 255, 255 );
+  	opacity: 0.502;
+  	border-radius:30px;
+  	background-image: url('../../i/loupe.png');
+  	background-repeat: no-repeat;
+  	background-position:210px 8px;
+  	padding: 5px 15px;
+  	font-size: 16px;
+  	font-family: 'OpenSansitalic';
+  	color: $colorRed;
+	}
+	.b-header_top_liste_left_search input::-webkit-input-placeholder{color: $colorRed;}
+	.b-header_top_liste_left_search input:-moz-placeholder{color: $colorRed;}
+}
+
+.b-header_bottom{
+	height: 110px;
+	background-color: rgb( 255, 255, 255 );
+  //box-shadow: 0px 1px 0px 0px rgb( 0, 0, 0 );
+  //  box-shadow: 0px 1px 3px 0px rgb( 0, 0, 0 );
+&_logo{position:absolute; margin-top:-82px;}
+  .b-header_bottom_menu{
+		height:45px;
+		margin-left:208px;
+		margin-top:45px;
+
+		ul li{height:45px; line-height:40px; padding: 0px 44px 0px 0px;}		
+		ul li:nth-child(6){padding: 0px;}
+
+		ul li a{
+			font-size: 18px;
+  		font-family: "OpenSansbold";
+  		color: #000000;
+  		text-transform: uppercase;
+  		padding:0 !important;
+
+  		&:hover, &:active , &:focus{color:$colorRed;}
+		}
+
+  }
+
+  
+  .logo_second{display:none;}  
+}
+
+
+.i-scroll{
+  position:fixed;
+  margin-top:0;
+  z-index:1000;
+   height:70px;
+  
+
+  left:0;
+  right:0;
+  .b-header_top{display:none;}
+  .b-header_bottom {
+    height:70px;
+    .b-header_bottom_menu {margin-top:15px;}
+  }
+  .logo_primary{display:none;}
+  .logo_second{display:block !important;} 
+  .b-header_bottom_logo{position:absolute; margin-top:-12px;}
+}

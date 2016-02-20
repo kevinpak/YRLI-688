@@ -1,0 +1,58 @@
+/*-----------------------------*\
+			Declaration general
+\*-----------------------------*/
+*{width:auto;}body{min-width:1144px;}
+.left{float:left;}.right{float:right;}
+.red{border:solid 1px red;}.green{border:solid 1px green;}
+	
+$colorRed:#d23a2a;
+
+.i-bolock{
+	width:100%;
+	position:relative;
+	overflow:hidden;
+	padding:0px;
+}
+
+@mixin btn_action{
+	width: 210px;
+  height: 50px;
+  border-radius:40px;
+  background-color:rgb( 210, 58, 42 );
+  text-align:center;
+  cursor:pointer;
+  font-size: 20px;
+  font-family: "OpenSanssemibold";
+  color: rgb( 255, 255, 255 );
+  text-transform: uppercase;
+  line-height:50px;
+}
+@font-face {font-family: OpenSans; src: url("font/opensansregular.ttf"); }
+  
+@font-face {font-family: OpenSansitalic; src: url("font/opensansitalic.ttf"); }
+
+@font-face {font-family: OpenSansbold;src: url("font/opensansbold.ttf"); }
+
+@font-face {font-family: OpenSansextrabold;src: url("font/opensansextrabold.ttf"); }
+ 
+@font-face {font-family: OpenSansbolditalic;src: url("font/opensansbolditalic.ttf"); }
+
+@font-face { font-family: OpenSanssemibolditalic;src: url("font/opensanssemibolditalic.ttf"); }
+
+@font-face { font-family: OpenSanssemibold;src: url("font/opensanssemibold.ttf"); }
+ 
+
+  
+  
+  
+  
+/*-----------------------------*\
+			Declaration elements
+\*-----------------------------*/
+@import '_header';
+@import '_first';
+@import '_block3';
+@import '_block4';
+@import '_block5';
+@import '_block6';
+@import '_footer';

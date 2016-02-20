@@ -1,0 +1,61 @@
+.b-footer{
+	height:670px;
+
+	&_top{
+		height:370px;
+		background-color:#dfdfdf;
+		text-transform: uppercase;
+
+		h4{
+			font-size: 18px;
+  		font-family:"OpenSansbold";
+  		color: rgb( 0, 0, 0 );
+  		line-height: 1.444;
+  		margin-top:95px;
+		}
+		p{
+			line-height: 18px;
+			margin-bottom:8px;
+			letter-spacing: -1px;
+			a{
+				font-size: 16px;
+  			font-family: "OpenSans";
+  			color:#555555;
+			}
+		}
+	}
+
+	&_bottom{
+		height:300px;
+		background-color:white;
+
+		&_logo{margin-top:35px;}
+
+		&_num{
+			//color:#333333;
+			font-size: 24px;
+  		font-family: "OpenSansbold";
+  		color: rgb( 51, 51, 51 );
+ 		 	font-weight: bold;
+  		line-height: 1;
+  		text-align: left;
+  		-moz-transform: matrix( 1.00000002029627,0,0,0.999997065317,0,0);
+  		-webkit-transform: matrix( 1.00000002029627,0,0,0.999997065317,0,0);
+  		-ms-transform: matrix( 1.00000002029627,0,0,0.999997065317,0,0);
+  		margin-bottom:10px;
+		}
+
+		small{
+			display:block;
+			color:#333333;
+			font-family: "OpenSans";
+		}
+
+		&_reference{margin-top:45px}
+
+		&_img-footer{
+			text-align:center;
+			img{margin-top:-85px;}
+		} 
+	}
+}

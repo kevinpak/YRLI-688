@@ -1,0 +1,27 @@
+.b-block4{
+	height:560px;
+
+.b-block4_content{margin-top:25px !important;}
+
+	&_content{
+		 p{margin-bottom:0px;}
+
+		.i-block4_elem_img{
+			border-radius: 20px 20px 0px 0px;
+			position:relative;
+			overflow:hidden;
+		}
+		.i-block4_elem .i-block4_elem_title{
+			height:70px;
+			border-radius: 0px 0px 20px 20px;
+			box-shadow:  0px 2.95px rgba(241, 241, 241, 0.77);
+			font-size: 18px;
+  		font-family: "OpenSansbold";
+  		color: rgb( 0, 0, 0 );
+  		text-transform: uppercase;
+  		line-height: 70px;
+  		text-align: center;
+  		letter-spacing: -1px;
+		}
+	}
+}

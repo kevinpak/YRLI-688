@@ -1,0 +1,55 @@
+.b-block6{
+	height:785px;
+
+	&_content{
+		min-height:680px;
+		background-image: url('../../i/bg_form.png');
+		 background-repeat: no-repeat;
+		 background-size:100% 100%;
+		 padding:70px 90px;
+   //background-position:center;
+
+   button{
+   @include btn_action;
+    margin-left:223px;
+    margin-top:20px;
+   }
+	}
+
+	.i-block6_lab{
+		margin-top:5px;
+
+		span{
+		font-size: 18px;
+  	font-family: "OpenSanssemibold";
+  	color: rgb( 0, 0, 0 );
+		}
+
+		.vNone{visibility: hidden;}
+
+		input{height:50px; box-shadow: 0px 1.35px #cacaca;}
+		input::-webkit-input-placeholder {color: rgb( 147, 147, 147 ); font-family: "OpenSansitalic"; }
+    input:-moz-placeholder { color:  rgb( 147, 147, 147 ); font-family:"OpenSansitalic";  }
+   
+
+		textarea{height:170px; box-shadow: 0px 1.35px #cacaca;}
+	}
+	&_fichier{
+		width:200px;
+		label{
+			background-image: url('../../i/trombone.png');background-repeat: no-repeat; padding-left:30px;
+			cursor:pointer;
+			margin-top:30px;
+			span{
+				font-size: 18px;
+  			font-family: "OpenSans";
+  			color: rgb( 210, 58, 42 );
+  			font-weight: bold;
+  			line-height: 1.222;
+  			text-align: left;
+  			border-bottom: dashed 1px;
+			}
+		}
+	}
+	#fich{display:none;}
+}
